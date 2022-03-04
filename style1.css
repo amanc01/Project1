@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+.intro{
+    height:100vh;
+    width: 100%;
+    background-image: url("https://s1.1zoom.me/big0/309/Men_Black_background_Human_back_Muscle_515078_1280x778.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+ul{
+    list-style-type: none;
+}
+nav {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: white;
+    font-size: 70px;
+    letter-spacing:1px;
+}
+.logo:hover{
+    color:rgb(40, 123, 218);
+}
+span{
+    font-family: cursive;
+    color: rgb(40, 123, 218);
+}
+nav ul li{
+
+    display: inline-block;
+    padding:  10px 25px;
+}
+.intro ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+.intro ul li a:hover{
+    color:rgb(40, 123, 218) ;
+}
+.button{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    background-color: rgb(40, 123, 218);
+    padding: 10px;
+}
+.button:hover{
+    transform: scale(1.2);
+    
+}
+.abouta{
+    color: white;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-family:cursive;
+    padding-left: 8%;
+    padding-top: 10%;
+
+}
+.abouta h1:hover {
+    color:rgb(45, 109, 204);
+}
+.em{
+    position: relative;
+    padding-left: 8%;
+    padding-top: 40px;
+}
+.em form input:first-child{
+    display: inline-block;
+    width: 30%;
+    padding: 15px 120px 14px 15px ;
+    border: 3px solid rgb(25, 117, 236);
+    border-radius: 30px;
+}
+.em form input:last-child{
+    border: 3px solid rgb(240, 242, 245);
+    border-radius: 35px;
+    padding: 10px ;
+    font-weight: bold;
+    font-size: 17px;
+    background: rgb(25, 117, 236);
+    color: white;
+    display: inline-block;/*to get start moving in a line*/
+    width:100px;/*to fix the size of start button*/
+    position:absolute; left:437px;top:43px; /*to take the start on desired position*/ 
+}
+.em form input:last-child:hover{
+    transform: scale(1.1);
+}
+
+.about{
+    background: rgb(12, 12, 12);
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    background-image: url("https://wallpaperaccess.com/full/2454628.png");
+    background-size: cover;
+    background-position: center;
+}
+.main{
+    width: 1130px;
+    max-width: 100%;
+    align-items:center;
+    
+}
+.about-txt h2{
+    color:white;
+    font-size: 75px;
+    font-family:cursive;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+.about-txt h5{
+    color:white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    margin-left: 50px;
+}
+.about-txt p{
+    color:rgb(169, 98, 197);
+    letter-spacing: 1px;
+    font-family: monospace;
+    line-height: 28px;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+button{
+    background-color: rgb(25, 117, 236);
+    border: 7px solid transparent;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    padding: 11px;
+    margin-left: 50px;
+    
+}
+button:hover{
+    transform:scale(1.1);
+}
+.Skills{
+    background: rgb(12, 12, 12);
+    width:100%;
+    padding: 100px 0px;
+    background-image: url("https://wallpaperaccess.com/full/2454628.png");
+    background-size: cover;
+    background-position: center;
+}
+.title h2{
+    text-align:center;
+    font-size: 50px;
+    font-family: cursive;
+    color: white;
+}
+.title h2:hover{
+   color: rgb(25, 117, 236);
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+}
+.cards{
+    height: 320px;
+    width: 335px;
+    border-radius: 30px;
+    background: #292929;
+    text-align: center;
+    margin: 20px;
+    overflow: hidden;
+    position: relative;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/002/201/930/original/black-perforated-background-with-black-holes-and-glow-vector.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.cards h4{
+    color: white;
+    font-size: 30px;
+    font-family:monospace;
+    font-weight: bold;
+}
+.pra{
+    color: rgb(208, 141, 235);
+    margin: 20px;
+    letter-spacing: 2px;
+    font-size: medium;
+}
+.cards .butt{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    background-color: rgb(40, 123, 218);
+    padding: 8px;
+    position:relative; top:20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.contact{
+    margin: 0;
+    text-align: center;
+    font-size: 50px;
+    background-color:#292929;
+    color: white;
+    background-image: url("https://media.istockphoto.com/photos/black-carbon-fiber-texture-background-sports-race-wallpaper-picture-id1173290090?b=1&k=20&m=1173290090&s=170667a&w=0&h=pBeeRqAQlsx13_lbmwaRz6Xm_5WPibscQuTcawm9EoY=");
+    background-size: cover;
+    background-position: center;
+
+}
+.contact h3{
+    font-family: cursive;
+}
+.button-two{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    border: 9px solid transparent;
+    border-radius: 25px;
+    background-color: rgb(40, 123, 218);
+    position:relative; bottom:40px;
+}
+.button-two:hover{
+    transform:scale(1.1);
+}
